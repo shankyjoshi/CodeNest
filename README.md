@@ -91,6 +91,15 @@ kubectl apply -f ingress-controller.yaml
 npm run dev
 ```
 
+## Output
+
+![alt text](Workflow.png)
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
