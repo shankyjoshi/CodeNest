@@ -2,6 +2,11 @@
 
 CodeNest is an Online Code Editor for Backend/Frontend Apps.
 
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
 # Tech Stack
 - Node.js
 - Express
@@ -38,6 +43,10 @@ CodeNest is an Online Code Editor for Backend/Frontend Apps.
 4. As user start the projects, start a pod (deployment in k8s), a service and ingress for them.
 5. As user leave the projects, stop the respective deployment, service and ingress for them.
 6. Cluster will autoscale based on the policies I added.
+
+
+![alt text](Workflow.png)
+
 
 
 # Why this approach is secure ?
@@ -90,15 +99,6 @@ kubectl apply -f ingress-controller.yaml
 ```bash
 npm run dev
 ```
-
-## Output
-
-![alt text](Workflow.png)
-
-![alt text](image.png)
-
-![alt text](image-1.png)
-
 
 ## Contributing
 
